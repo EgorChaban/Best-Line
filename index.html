@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Line</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/normalize.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <!--======================================WINDOWS==================================================-->
+    <div class="window-wrapp"></div>
+    <div class="window-call">
+      <div class="window-call__closed">
+        <img
+          src="src/img/closed.svg"
+          alt="закрыть"
+          class="window-call__closed-svg"
+        />
+      </div>
+      <div class="window-call__thank-you">Спасибо!</div>
+      <div class="window-call__call">
+        В течение получаса мы вам перезвоним!
+      </div>
+    </div>
+
+    <!--/.window-call -->
+    <!-- m-window-call-->
+    <div class="m-window-call">
+      <img src="src/img/closed.svg" alt="закрыть" class="m-window-call__img" />
+      <div class="m-window-call__name">Имя</div>
+      <div class="m-window-call__call">Ждите звонка!</div>
+    </div>
+    <!-- /.m-window-call -->
+    <!-- оставить ЗАЯВКУ-->
+    <div class="request-wrapp"></div>
+    <form class="request">
+      <img src="src/img/closed.svg" alt="Закрыть" class="request__img" />
+      <div class="request__admin">
+        Оставте свое имя и номер телефона. Наш дизайнер свяжется с вами.
+      </div>
+
+      <input type="text" class="request__name" placeholder="Ваше имя" />
+
+      <input type="tel" class="request__phone" placeholder="Ваш телефон" />
+
+      <button class="request__button">Записаться</button>
+    </form>
+    <div class="request-ok">
+      <img src="src/img/closed.svg" alt="закрыть" class="request-ok__img" />
+      <div class="request-ok__title"></div>
+    </div>
+
+    <!--=========================================HEADER================================================-->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapp">
+          <div class="header__top">
+            <div class="header__left">
+              <div class="header__title">
+                <div class="header__logo">
+                  <a href="#"
+                    ><img
+                      src="src/img/logo.png"
+                      alt="Логотип"
+                      title="Логотип 'Best
+                Line'"
+                      class="header__logo-img"
+                  /></a>
+                </div>
+                <!-- /.header__logo -->
+                <div class="m-menu">
+                  <div class="m-menu__top">
+                    <div class="m-menu__top-element" id="m-self">О нас</div>
+                    <div class="m-menu__top-element" id="m-catalog">
+                      Каталог
+                    </div>
+                    <div class="m-menu__top-element" id="m-stage">
+                      Этапы работы
+                    </div>
+                    <div class="m-menu__top-element" id="m-contacts">
+                      Контакты
+                    </div>
+                  </div>
+                  <form class="m-menu__call">
+                    <div class="m-menu__name">
+                      <input
+                        type="text"
+                        class="m-menu__name-input"
+                        placeholder="Ваше имя"
+                      />
+                    </div>
+                    <div class="m-menu__phone">
+                      <input
+                        type="tel"
+                        class="m-menu__phone-input"
+                        placeholder="Ваш телефон"
+                      />
+                    </div>
+                    <button class="m-menu__form-button">Заказать звонок</button>
+                  </form>
+
+                  <div class="m-menu__bottom-element">
+                    <img
+                      src="src/img/telegram.svg"
+                      alt="телеграм"
+                      class="m-menu__social"
+                    />
+                    <img
+                      src="src/img/instagram.svg"
+                      alt="инстаграм"
+                      class="m-menu__social"
+                    />
+                    <img
+                      src="src/img/viber.svg"
+                      alt="вайбер"
+                      class="m-menu__social"
+                    />
+                  </div>
+                </div>
+                <button class="m-menu-button">
+                  <span class="m-menu-button__line"></span>
+                  <span class="m-menu-button__line"></span>
+                  <span class="m-menu-button__line"></span>
+                </button>
+
+                <nav class="header__nav">
+                  <div class="header__nav-element">
+                    <div class="header__nav-element-text" id="self">
+                      О нас
+                    </div>
+                  </div>
+                  <div class="header__nav-element">
+                    <div class="header__nav-element-text" id="stage">
+                      Этапы
+                    </div>
+                  </div>
+
+                  <div class="header__nav-element">
+                    <div class="header__nav-element-text" id="catalog">
+                      Каталог
+                    </div>
+                  </div>
+
+                  <div class="header__nav-element">
+                    <div class="header__nav-element-text" id="contacts">
+                      Контакты
+                    </div>
+                  </div>
+                </nav>
+                <!-- /.header__nav -->
+                <div class="header__phone">
+                  <input type="tel" class="header__phone-input" />
+
+                  <a href="#" class="header__phone-call">Заказать звонок</a>
+                </div>
+                <!-- /.header__phone -->
+              </div>
+              <!-- /.header__title -->
+              <div class="header__body">
+                <div class="header__body-social">
+                  <a href="#" class="header__body-social-img"
+                    ><img
+                      src="src/img/telegram.svg"
+                      class="header__body-social-img-img"
+                      alt="Телеграм"
+                  /></a>
+                  <a href="#" class="header__body-social-img"
+                    ><img
+                      src="src/img/instagram.svg"
+                      class="header__body-social-img-img"
+                      alt="Инстаграмм"
+                  /></a>
+                  <a href="#" class="header__body-social-img"
+                    ><img
+                      src="src/img/viber.svg"
+                      class="header__body-social-img-img"
+                      alt="Вайбер"
+                  /></a>
+                </div>
+                <!-- /.header__body-social -->
+                <section class="header__body-section">
+                  <h1 class="header__body-title">
+                    Кухня твоей мечты в короткие сроки
+                  </h1>
+                  <div class="header__body-subtitle">
+                    Расскажите нам все ваши желания, а мы создадим
+                    индивидуальные дизайн-макеты и воплотим кухню мечту в
+                    реальность
+                  </div>
+                  <button class="header__body-button">Оставить заявку</button>
+                </section>
+              </div>
+              <!-- /.header__body -->
+            </div>
+            <!-- /.header__left -->
+
+            <div class="header__right">
+              <img
+                src="src/img/header-img.jpg"
+                alt="Кухня"
+                class="header__right-image"
+              />
+            </div>
+            <!-- /.header__right -->
+          </div>
+          <!--header__top-->
+          <div class="header__bottom">
+            <div class="header__bottom-img">
+              <img
+                src="src/img/headerbottom.jpg"
+                alt="Кухня"
+                class="header__bottom-img-img"
+              />
+            </div>
+            <section class="header__bottom-section">
+              <h3 class="header__botton-title">О нашей компании</h3>
+              <div class="header__bottom-subtitle">
+                Мы знаем. как сложно выбрать кухню своей мечты. К вашим услугам
+                наши лучшие дизайнеры, которые помогут вам понять, чего вы
+                хотите и как лучше это реализовать. Каждый наш проект
+                уникален<br /><br />
+                Наш салон кухонь - это сочетание современного производства,
+                индивидуального стиля и высокого качества материалов.
+              </div>
+            </section>
+          </div>
+          <!-- /.header__bottom -->
+        </div>
+        <!--header__wrapp-->
+      </div>
+      <!-- /.container -->
+    </header>
+    <!-- /.header -->
+    <!--==================================================STAGE===================================================-->
+    <div class="container">
+      <section class="stage">
+        <h3 class="stage__title">Этапы нашего производства</h3>
+        <div class="stage__image">
+          <img
+            src="src/img/stages.svg"
+            alt="Этапы производства"
+            class="stage__image-svg"
+          />
+          <img
+            src="src/img/stageline576.png"
+            alt="Этапы производства"
+            class="stage__image-svg675"
+          />
+        </div>
+      </section>
+      <!-- /.stage -->
+    </div>
+    <!-- /.container -->
+    <!--===============================================GALLERY================================================-->
+    <div class="calculate-wrapp">
+      <div class="calculate">
+        <img src="src/img/closed.svg" alt="выйти" class="calculate__img" />
+        <div class="calculate__title">Рассчет стоимости</div>
+
+        <select class="select">
+          <option disabled>Выбрать стиль</option>
+          <option value="12">Эконом</option>
+          <option value="30">Стандарт</option>
+          <option value="45">Люкс</option>
+        </select>
+
+        <div class="calculate__meter">
+          <div class="calculate__meter-title">Квадратура</div>
+          <input
+            type="text"
+            placeholder="кв.м"
+            class="calculate__meter-input"
+          />
+        </div>
+        <div class="calculate__table">
+          <div class="calculate__table-title">Кол-во шкафоф</div>
+          <input type="text" placeholder="шт." class="calculate__table-input" />
+        </div>
+        <div class="calculate__plate">
+          <input type="checkbox" class="calculate__plate-input" name="plates" />
+          <label for="plates" class="calculate__plate-label">Плита</label>
+        </div>
+        <div class="calculate__washer">
+          <input
+            type="checkbox"
+            name="washer"
+            class="calculate__washer-input"
+          />
+          <label for="washer" class="calculate__washer-label"
+            >Посудомоечная машина</label
+          >
+        </div>
+        <button class="calculate__button">Рассчитать</button>
+        <div class="total">
+          <p class="total-price-p">
+            Цена: <span class="total-price">0</span> $
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <section class="gallery">
+        <h2 class="gallery__title">
+          Рассчитайте приблизительную стоимость вашей кухни
+        </h2>
+        <!-- /.gallery__title -->
+
+        <!-- /.gallery__subtitle -->
+        <div class="gallery__image">
+          <div class="gallery__img-a gallery__first-img">
+            <div class="gallery__img">
+              <img
+                src="src/img/gallery1.jpg"
+                alt="Вариант 1"
+                class="gallery__img-img"
+              />
+            </div>
+          </div>
+          <div class="gallery__img-a">
+            <div class="gallery__img">
+              <img
+                src="src/img/gallery2.jpg"
+                alt="Вариант2"
+                class="gallery__img-img"
+              />
+            </div>
+          </div>
+          <div class="gallery__img-a">
+            <div class="gallery__img">
+              <img
+                src="src/img/gallery3.jpg"
+                alt="Вариант3"
+                class="gallery__img-img"
+              />
+            </div>
+          </div>
+          <div class="gallery__img-a">
+            <div class="gallery__img">
+              <img
+                src="src/img/gallery4.jpg"
+                alt="Вариант4"
+                class="gallery__img-img"
+              />
+            </div>
+          </div>
+          <div class="gallery__img-a">
+            <div class="gallery__img">
+              <img
+                src="src/img/gallery5.jpg"
+                alt="вариант5"
+                class="gallery__img-img"
+              />
+            </div>
+          </div>
+          <div class="gallery__img-a">
+            <div class="gallery__img">
+              <img
+                src="src/img/gallery6.jpg"
+                alt="вариант6"
+                class="gallery__img-img"
+              />
+            </div>
+          </div>
+          <div class="gallery__img-a">
+            <div class="gallery__img">
+              <img
+                src="src/img/gallery7.jpg"
+                alt="вариант7"
+                class="gallery__img-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.gallery -->
+    </div>
+    <!-- /.container -->
+    <!--===============================================SALE=======================================================-->
+
+    <div class="sale-wrapper">
+      <div class="container">
+        <section class="sale">
+          <div class="sale__image">
+            <img
+              src="src/img/saleImg.png"
+              alt="скидки"
+              class="sale__image-img"
+            />
+          </div>
+          <div class="sale__body">
+            <h2 class="sale__body-title">Скидки до 30 %</h2>
+            <div class="sale__body-subtitle">
+              на модульные кухни коллекции <strong>2019</strong> года
+            </div>
+            <button class="sale__body-button">Заказать</button>
+          </div>
+        </section>
+        <!-- /.sale -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!--sale-wrapper-->
+    <!--============================================DESIGNER=======================================================-->
+    <div class="designer-wrapper">
+      <div class="container">
+        <section class="designer">
+          <div class="designer__body">
+            <h2 class="designer__body-title">
+              Закажите бесплатную консультацию дизайнера интерьера из Италии
+            </h2>
+            <div class="designer__body-img">
+              <img
+                src="src/img/designer.png"
+                alt="Дизайнер"
+                class="designer__body-img-img"
+              />
+            </div>
+            <div class="designer__body-name">
+              <img
+                src="src/img/designerName.png"
+                alt="Агата Бьянки"
+                class="designer__body-name-name"
+              />
+              <div class="designer__body-name-position">Дизайнер</div>
+            </div>
+          </div>
+          <!-- /.designer__body-->
+          <div class="designer__form">
+            <div class="designer__form-title">
+              Заполните форму и консультант перезвонит вам, чтобы назначить
+              удобное время для встречи
+            </div>
+            <!-- /.designer__form-title -->
+            <form action="" class="designer__form-body">
+              <div class="designer__form-name-wrapp">
+                <input
+                  type="text"
+                  placeholder="Введите имя"
+                  class="designer__form-name"
+                />
+              </div>
+              <div class="designer__form-phone-wrapp">
+                <input
+                  type="tel"
+                  placeholder="Введите телефон"
+                  class="designer__form-phone"
+                />
+              </div>
+              <button class="designer__form-button">
+                Хочу на консультацию
+              </button>
+            </form>
+            <!-- /.designer__form-body -->
+            <div class="designer__form-description">
+              Нажимая кнопку, вы даете согласие на использование ваших данных
+            </div>
+          </div>
+        </section>
+        <!-- /.designer -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.designer-wrapper -->
+    <!--========================================================ADdRESS=========================================-->
+    <div class="container">
+      <section class="address">
+        <div class="address__title">Мы ждем вас в нашем офисе</div>
+        <!-- /.address__title -->
+        <div class="address__cards">
+          <div class="address__google">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.6358116596925!2d27.47933371534771!3d53.93821373791435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc503161b71b3%3A0xe6c2c33f3d3c264e!2z0L_RgC3Rgi4g0J_QvtCx0LXQtNC40YLQtdC70LXQuSAxMDAsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1592768175799!5m2!1sru!2sby"
+              width="100%"
+              height="100%"
+              frameborder="0"
+              style="border: 0;"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+          <div class="address__contact">
+            <div class="address__time">
+              <p class="address__time-title">Часы работы</p>
+              <div class="address__time-hours">
+                <img
+                  src="src/img/hour.png"
+                  alt="Время работы"
+                  class="address__time-hours-img"
+                />
+                <span class="address__time-hours-span">10:00 - 20:00</span>
+              </div>
+              <!--/.address__time-hours-->
+            </div>
+            <p class="address__phone-title">Телефон</p>
+            <p class="address__phone">+ 375 29 111 22 33</p>
+            <p class="address__address-title">Адрес</p>
+            <p class="address__address">г. Минск, пр-т Победителей, 100</p>
+            <button class="address__button">Записаться</button>
+          </div>
+          <!--/.address__contact-->
+        </div>
+        <!-- /.address__cards -->
+      </section>
+      <!-- /.address -->
+    </div>
+    <!-- /.container -->
+    <!--=================================================FOOTER========================================================-->
+    <div class="footer-wrapp">
+      <div class="container">
+        <footer class="footer">
+          <nav class="footer__nav">
+            <div class="footer__element footer__element-text">
+              Заказ и доставка
+            </div>
+            <div class="footer__element footer__element-text">
+              Вопросы и ответы
+            </div>
+            <div class="footer__element footer__element-text">Партнерам</div>
+            <div class="footer__element footer__element-text">О компании</div>
+            <div class="footer__element footer__element-text">Акции</div>
+            <div class="footer__element footer__element-text">Контакты</div>
+            <div class="footer__element footer__img">
+              <div class="footer__img-div">
+                <a href="#">
+                  <img
+                    src="src/img/footerTELEGA.png"
+                    alt="Телеграм"
+                    class="footer__img-img"
+                /></a>
+              </div>
+              <div class="footer__img-div">
+                <a href="#">
+                  <img
+                    src="src/img/footerINSTA.png"
+                    alt="Инстаграм"
+                    class="footer__img-img"
+                /></a>
+              </div>
+              <div class="footer__img-div">
+                <a href="#">
+                  <img
+                    src="src/img/footerVIBER.png"
+                    alt="Вайбер"
+                    class="footer__img-img"
+                /></a>
+              </div>
+            </div>
+          </nav>
+          <!-- /.footer__nav -->
+        </footer>
+        <!-- /.footer -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.footer-wrapp -->
+    <script src="src/scripts/jquery-3.5.1.min.js"></script>
+    <script src="src/scripts/modalWindow.js"></script>
+    <script src="src/scripts/scroll.js"></script>
+    <script src="src/scripts/calculate.js"></script>
+  </body>
+</html>
